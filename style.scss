@@ -1,0 +1,128 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+
+.common{
+    display: flex;
+    justify-content: space-between;
+    color: #262626;
+    background-color: whitesmoke;
+    height: 80px;
+    align-items: center;
+
+    .frist{
+        margin-left: 20px;
+        a{
+            padding: 0 0px;
+            margin: 12px 12px;
+            text-decoration: none;
+            color: #666666;
+            font-size: 20px;
+            transition: 2s;
+            &:hover{
+                text-decoration:underline ;
+                
+            }
+        }
+        #hov{
+            border: 2px solid #0056C1;
+            color: #0056c1;
+            border-radius: 40px;
+            padding: 10px 20px;
+            transition: 0.4s;
+            font-weight: bold;
+            
+            &:hover{
+                background-color: #0056c1;
+                color: #ffff;
+                text-decoration: none;
+
+               
+            }
+        }
+    }
+
+    .second{
+        margin-right: 50px;
+        &:hover{
+            cursor:grab;
+        }
+    }
+    .second span, button{
+        margin: 12px 10px;
+    }
+    button{
+        border: none;
+        font-size: 20px;
+    }
+    span{
+        font-size: 18px;
+    }
+}
+
+
+
+#navalt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0;
+    transition: .4s;
+    span{
+        width: 10%;
+        i{
+            font-size: 40px;
+        }
+    }
+    
+    .text2{
+        width: 10%;
+    }
+.text{
+    width: 90%;
+    input{
+     width: 90%;
+     height: 10rem;
+     outline: none;
+     font-weight: normal;
+     font-size: 50px;
+     color: #9f9f9f ;
+   
+     &::placeholder {
+         font-size: 60px;
+         align-items: center;
+       }
+    }  
+ }
+}
+
+
+
+
+
+
+.boxs{
+    width: 700px;
+    margin: 3rem auto;
+    border: 2px solid #15be89;
+    height: 200px;
+    
+    input{
+        height: 50px;
+        border: 1px solid #15be89bb;
+    }
+}
+
+.box{
+    border: 1px solid #15be89bb;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}

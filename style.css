@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.common {
+  display: flex;
+  justify-content: space-between;
+  color: #262626;
+  background-color: whitesmoke;
+  height: 80px;
+  align-items: center;
+}
+.common .frist {
+  margin-left: 20px;
+}
+.common .frist a {
+  padding: 0 0px;
+  margin: 12px 12px;
+  text-decoration: none;
+  color: #666666;
+  font-size: 20px;
+  transition: 2s;
+}
+.common .frist a:hover {
+  text-decoration: underline;
+}
+.common .frist #hov {
+  border: 2px solid #0056C1;
+  color: #0056c1;
+  border-radius: 40px;
+  padding: 10px 20px;
+  transition: 0.4s;
+  font-weight: bold;
+}
+.common .frist #hov:hover {
+  background-color: #0056c1;
+  color: white;
+  text-decoration: none;
+}
+.common .second {
+  margin-right: 50px;
+}
+.common .second:hover {
+  cursor: grab;
+}
+.common .second span, .common button {
+  margin: 12px 10px;
+}
+.common button {
+  border: none;
+  font-size: 20px;
+}
+.common span {
+  font-size: 18px;
+}
+
+#navalt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0;
+  transition: 0.4s;
+}
+#navalt span {
+  width: 10%;
+}
+#navalt span i {
+  font-size: 40px;
+}
+#navalt .text2 {
+  width: 10%;
+}
+#navalt .text {
+  width: 90%;
+}
+#navalt .text input {
+  width: 90%;
+  height: 10rem;
+  outline: none;
+  font-weight: normal;
+  font-size: 50px;
+  color: #9f9f9f;
+}
+#navalt .text input::-moz-placeholder {
+  font-size: 60px;
+  align-items: center;
+}
+#navalt .text input::placeholder {
+  font-size: 60px;
+  align-items: center;
+}
+
+.boxs {
+  width: 700px;
+  margin: 3rem auto;
+  border: 2px solid #15be89;
+  height: 200px;
+}
+.boxs input {
+  height: 50px;
+  border: 1px solid rgba(21, 190, 137, 0.7333333333);
+}
+
+.box {
+  border: 1px solid rgba(21, 190, 137, 0.7333333333);
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 40px;
+}/*# sourceMappingURL=style.css.map */
