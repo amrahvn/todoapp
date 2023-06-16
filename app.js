@@ -7,6 +7,9 @@ let all_btns=document.querySelector('all_btns')
 btn.addEventListener("click",function(){
 
     let task=document.querySelector('.boxs input').value;
+    if (task.trim() === '') {
+        task = 'No tasks...';
+      }
 
     let h2=document.createElement('h2');
     let div=document.createElement('div');
@@ -29,7 +32,12 @@ btn.addEventListener("click",function(){
         this.parentElement.remove();
        }  
     }
+    let taskCount = document.querySelectorAll('.box').length;
+    document.querySelector('.task-count').innerHTML = `Number of tasks: ${taskCount}`;
+
 })
+
+
 
 
 let span=document.querySelector('#spn')

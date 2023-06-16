@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.tas p {
+  font-size: 22px;
+}
+
 .common {
   display: flex;
   justify-content: space-between;
